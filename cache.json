@@ -1,0 +1,33 @@
+{
+  "program": {
+    "candyMachine": "DcrTKHw5MsWGj5BJTAeTJHxmA6u7kh2JPZgNto7m2asb",
+    "candyMachineCreator": "3tiVHQbF2RDr53cfXEPKrtivMkE6n35GF5eq9AzXAeUh",
+    "collectionMint": ""
+  },
+  "items": {
+    "0": {
+      "name": "Ahiru no sora 1",
+      "image_hash": "2525f4bc870bc61cd38dc483ed474526265d821af5cfbe78aedbafaf3dff3fae",
+      "image_link": "https://nftstorage.link/ipfs/bafybeidg54f4lmr7biywigmpflkb2lg2gzc3522llae37drqijomqkyjmy/0.png",
+      "metadata_hash": "5d01eaf9605609fda7695b029eea6f6c72b50d37f3f40a9328d917133d9a0af0",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeif2qp4yvlhy7mii4qwzuyn7ox2grzbd5tt3hc2jpb6lxejnov4sfa/0.json",
+      "onChain": true
+    },
+    "1": {
+      "name": "Ahiru no sora 2",
+      "image_hash": "9bc4421ba31bd05033a8baaae3bbcc04a6837d6fe35746b35c4ad235e802fd75",
+      "image_link": "https://nftstorage.link/ipfs/bafybeidg54f4lmr7biywigmpflkb2lg2gzc3522llae37drqijomqkyjmy/1.png",
+      "metadata_hash": "70801dcec2d8ee2a6c89eddd710676136819360f5f44de681d1ec5e0e6556308",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeif2qp4yvlhy7mii4qwzuyn7ox2grzbd5tt3hc2jpb6lxejnov4sfa/1.json",
+      "onChain": true
+    },
+    "2": {
+      "name": "Ahiru no sora 3",
+      "image_hash": "d1e4e0a5a1f26e0b84692e6e3b90f1a591b8c2d63ba6d68e652e71fe11dbe14f",
+      "image_link": "https://nftstorage.link/ipfs/bafybeidg54f4lmr7biywigmpflkb2lg2gzc3522llae37drqijomqkyjmy/2.png",
+      "metadata_hash": "1f9b650fad98ea9e03bebeb96312e8e43922e8434f1edf5c38947befd5e858d4",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeif2qp4yvlhy7mii4qwzuyn7ox2grzbd5tt3hc2jpb6lxejnov4sfa/2.json",
+      "onChain": true
+    }
+  }
+}

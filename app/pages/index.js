@@ -1,11 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
+import { useWallet } from "@solana/wallet-adapter-react";
+
+import CandyMachine from "../components/CandyMachine";
 
 // Constants
 const TWITTER_HANDLE = "_buildspace";
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 
 const Home = () => {
+  const wallet = useWallet();
+
+  useEffect(() => {
+    if (wallet) {
+      console.log("Phantom wallet found");
+      // console.log("Public key", wallet.publicKey.toString());
+    }
+  });
+
   const renderNotConnectedContainer = () => (
     <div>
       <img
@@ -23,10 +35,18 @@ const Home = () => {
         <div className="header-container">
           <p className="header">🍭 Candy Drop</p>
           <p className="sub-text">NFT drop machine with fair mint</p>
-          {renderNotConnectedContainer()}
+          {wallet.publicKey ? (
+            <CandyMachine walletAddress={wallet} />
+          ) : (
+            renderNotConnectedContainer()
+          )}
         </div>
         <div className="footer-container">
-          <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
+          <img
+            alt="Twitter Logo"
+            className="twitter-logo"
+            src="twitter-logo.svg"
+          />
           <a
             className="footer-text"
             href={TWITTER_LINK}
